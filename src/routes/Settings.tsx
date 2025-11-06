@@ -324,12 +324,10 @@ export const Settings: React.FC = () => {
                   Export Data
                 </Button>
 
-                <label className="cursor-pointer">
-                  <Button variant="outline" asChild className="flex items-center gap-2">
-                    <span>
-                      <Upload className="w-4 h-4" />
-                      Import Data
-                    </span>
+                <label className="cursor-pointer flex items-center gap-2">
+                  <Button variant="outline" className="flex items-center gap-2">
+                    <Upload className="w-4 h-4" />
+                    Import Data
                   </Button>
                 
                   <input
@@ -339,6 +337,7 @@ export const Settings: React.FC = () => {
                     className="hidden"
                   />
                 </label>
+
               </div>
 
               <div className="border-t border-gray-200 pt-4">
