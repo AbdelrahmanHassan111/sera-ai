@@ -53,7 +53,7 @@ export const Dashboard: React.FC = () => {
     try {
       const useGemini = settings.geminiApiKey && settings.geminiApiKey.length > 0;
       const newRecs = await evaluateGenetics(geneticMarkers, userProfile, {
-        useGemini,
+        useGemini: useGemini || true,
         maxRecommendations: 50,
       });
 
