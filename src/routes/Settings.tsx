@@ -325,12 +325,13 @@ export const Settings: React.FC = () => {
                 </Button>
 
                 <label className="cursor-pointer">
-                  <Button variant="outline" asChild className="...">
-                    <a href="/somewhere">Open</a>
+                  <Button variant="outline" asChild className="flex items-center gap-2">
+                    <span>
+                      <Upload className="w-4 h-4" />
+                      Import Data
+                    </span>
                   </Button>
-                    <Upload className="w-4 h-4" />
-                    Import Data
-                  </Button>
+                
                   <input
                     type="file"
                     accept=".json"
