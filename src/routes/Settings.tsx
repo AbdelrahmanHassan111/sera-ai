@@ -325,7 +325,9 @@ export const Settings: React.FC = () => {
                 </Button>
 
                 <label className="cursor-pointer">
-                  <Button variant="outline" className="gap-2 w-full" as="div">
+                  <Button variant="outline" asChild className="...">
+                    <a href="/somewhere">Open</a>
+                  </Button>
                     <Upload className="w-4 h-4" />
                     Import Data
                   </Button>
