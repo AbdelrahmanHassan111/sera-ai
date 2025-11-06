@@ -1,0 +1,33 @@
+[
+  {
+    "rsid": "rs1065852",
+    "gene": "CYP2D6",
+    "genotype": "CT"
+  },
+  {
+    "rsid": "rs1799853",
+    "gene": "CYP2C9",
+    "genotype": "CC"
+  },
+  {
+    "rsid": "rs4244285",
+    "gene": "CYP2C19",
+    "genotype": "GG"
+  },
+  {
+    "rsid": "rs1799966",
+    "gene": "BRCA1",
+    "genotype": "AG"
+  },
+  {
+    "rsid": "rs144848",
+    "gene": "BRCA2",
+    "genotype": "CT"
+  },
+  {
+    "rsid": "rs17879961",
+    "gene": "CHEK2",
+    "genotype": "CT"
+  }
+]
+

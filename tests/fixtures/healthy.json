@@ -1,0 +1,28 @@
+[
+  {
+    "rsid": "rs1065852",
+    "gene": "CYP2D6",
+    "genotype": "CT"
+  },
+  {
+    "rsid": "rs1799853",
+    "gene": "CYP2C9",
+    "genotype": "CC"
+  },
+  {
+    "rsid": "rs4244285",
+    "gene": "CYP2C19",
+    "genotype": "GG"
+  },
+  {
+    "rsid": "rs776746",
+    "gene": "CYP3A5",
+    "genotype": "AG"
+  },
+  {
+    "rsid": "rs9923231",
+    "gene": "VKORC1",
+    "genotype": "TT"
+  }
+]
+
